@@ -1,15 +1,43 @@
-# 22117_Group8
-Group project for 22117.
-This repository implements a structural bioinformatics pipeline to analyze the effect of missense mutations on protein stability and binding.
+# 22117 Group 8 – Project Pipeline
 
-The workflow:
+Group project for **Protein structure and Computaional Biology**.
 
-variant dataset
-    ↓
-structure selection
-    ↓
+This repository implements a **structural bioinformatics pipeline** to analyze the effect of **missense mutations** on protein stability and binding.
+
+---
+
+## Workflow
+
+The analysis pipeline consists of the following steps:
+
+```
+Variant dataset
+      ↓
+Structure selection
+      ↓
 FoldX stability calculation
-    ↓
-binding energy analysis
-    ↓
-result interpretation
+      ↓
+Binding energy analysis
+      ↓
+Result interpretation
+```
+
+---
+
+## Project Goal
+
+The goal of this project is to evaluate how missense mutations influence:
+
+- **Protein structural stability**
+- **Protein–protein binding interactions**
+
+using structural modeling and energy calculations.
+
+---
+
+## Tools
+
+- FoldX
+- Python
+- PDB / AlphaFold structures
+- ...
