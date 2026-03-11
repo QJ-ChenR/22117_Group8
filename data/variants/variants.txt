@@ -1,0 +1,9 @@
+# Missense variants for the example protein
+# Format: <WT_AA><position><MUT_AA>  (one per line)
+# Lines starting with '#' and blank lines are ignored.
+
+R80C
+A123V
+G45D
+L200P
+K310E
